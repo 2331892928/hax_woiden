@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 # ----------------配置区-------------------#
 #  每7天续约一次，建议本脚本执行频率高一些，不仅可以cookie保活，也能防止ocr失败验证码的失败或连接超时导致服务器续签失败。推荐1小时一次
 # 你的cookie。两个站的cookie是分开的
-Cookie2 = "ki2fc7caa7fg6d75tb3kd2rbb7"
+Cookie2 = ""
 #  谷歌驱动，仅支持谷歌浏览器，请下载对应的selenium驱动
 webdriver_qd = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedgedriver.exe"
 # woiden.id或hax.co.id
